@@ -7,6 +7,7 @@ import (
 	_ "github.com/davecgh/go-spew/spew"
 	_ "github.com/lib/pq"
 	_ "golang.org/x/tools/blog/atom"
+	"io"
 	"log"
 	"net/http"
 	"tastyporkchop/reportsite/earthquake_poller/usgsatom"
@@ -41,21 +42,7 @@ func main() {
 	}
 
 	// poll
-	poller := func(url string) (usgsatom.USGSFeed, error) {
-		resp, err := http.Get(url)
-		if err != nil {
-			return usgsatom.USGSFeed{}, err
-		}
-		defer resp.Body.Close()
-		decoder := xml.NewDecoder(resp.Body)
-		var data usgsatom.USGSFeed
-		err = decoder.Decode(&data)
-		if err != nil {
-			return usgsatom.USGSFeed{}, err
-		}
-		return data, err
-	}
-	feed, err := poller(atomUrl)
+	feed, err := poll(atomUrl)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -79,6 +66,31 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+// poll
+func poll(url string) (usgsatom.USGSFeed, error) {
+	resp, err := http.Get(url)
+	if err != nil {
+		return usgsatom.USGSFeed{}, err
+	}
+	defer resp.Body.Close()
+	var data usgsatom.USGSFeed
+	err = parseFeed(resp.Body, &data)
+	if err != nil {
+		return usgsatom.USGSFeed{}, err
+	}
+	return data, nil
+}
+
+//
+func parseFeed(r io.Reader, msg *usgsatom.USGSFeed) error {
+	decoder := xml.NewDecoder(r)
+	err := decoder.Decode(msg)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 //

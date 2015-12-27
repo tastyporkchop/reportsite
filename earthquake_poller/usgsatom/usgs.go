@@ -11,8 +11,8 @@ type USGSFeed struct {
 
 type USGSEntry struct {
 	atom.Entry
-	Point    string     `xml:"georss:point"`
-	Elev     string     `xml:"georss:elev"`
+	Point    string     `xml:"point"`
+	Elev     string     `xml:"elev"`
 	Category []Category `xml:"category"`
 }
 
