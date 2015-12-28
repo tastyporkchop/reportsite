@@ -11,3 +11,5 @@ create table earthquake_event (
 	primary key(id)
 )
 ;
+
+create index earthquake_event_event_id_idx on earthquake_event(event_id);
