@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.quakeml">
+    <event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="37511448" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37511448.quakeml">
+      <description>
+        <type>earthquake name</type>
+        <text>11km WNW of Garnet, California</text>
+      </description>
+      <origin catalog:datasource="ci" catalog:dataid="ci37511448" catalog:eventsource="ci" catalog:eventid="37511448" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci37511448/ci/1452395642190/product.xml">
+        <time>
+          <value>2016-01-10T03:09:44.190Z</value>
+        </time>
+        <longitude>
+          <value>-116.6506667</value>
+        </longitude>
+        <latitude>
+          <value>33.9531667</value>
+        </latitude>
+        <depth>
+          <value>11960</value>
+          <uncertainty>1090</uncertainty>
+        </depth>
+        <originUncertainty>
+          <horizontalUncertainty>380</horizontalUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+        </originUncertainty>
+        <quality>
+          <usedPhaseCount>29</usedPhaseCount>
+          <usedStationCount>23</usedStationCount>
+          <standardError>0.23</standardError>
+          <azimuthalGap>58</azimuthalGap>
+          <minimumDistance>0.08517</minimumDistance>
+        </quality>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>CI</agencyID>
+          <creationTime>2016-01-10T03:14:02.190Z</creationTime>
+          <version>3</version>
+        </creationInfo>
+      </origin>
+      <magnitude catalog:datasource="ci" catalog:dataid="ci37511448" catalog:eventsource="ci" catalog:eventid="37511448" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci37511448/ci/1452395642190/product.xml#magnitude">
+        <mag>
+          <value>0.75</value>
+          <uncertainty>0.16</uncertainty>
+        </mag>
+        <type>ml</type>
+        <stationCount>26</stationCount>
+        <originID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci37511448/ci/1452395642190/product.xml</originID>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>CI</agencyID>
+          <creationTime>2016-01-10T03:14:02.190Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci37511448/ci/1452395642190/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci37511448/ci/1452395642190/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>ci</agencyID>
+        <creationTime>2016-01-10T03:14:02.953Z</creationTime>
+        <version>3</version>
+      </creationInfo>
+    </event>
+    <event catalog:datasource="hv" catalog:eventsource="hv" catalog:eventid="61147211" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv61147211.quakeml">
+      <description>
+        <type>earthquake name</type>
+        <text>5km SW of Volcano, Hawaii</text>
+      </description>
+      <origin catalog:datasource="hv" catalog:dataid="hv61147211" catalog:eventsource="hv" catalog:eventid="61147211" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/hv61147211/hv/1452394336870/product.xml">
+        <time>
+          <value>2016-01-10T02:46:34.980Z</value>
+        </time>
+        <longitude>
+          <value>-155.277832</value>
+        </longitude>
+        <latitude>
+          <value>19.4044991</value>
+        </latitude>
+        <depth>
+          <value>30</value>
+          <uncertainty>310</uncertainty>
+        </depth>
+        <originUncertainty>
+          <horizontalUncertainty>150</horizontalUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+        </originUncertainty>
+        <quality>
+          <usedPhaseCount>28</usedPhaseCount>
+          <usedStationCount>18</usedStationCount>
+          <standardError>0.28</standardError>
+          <azimuthalGap>51</azimuthalGap>
+          <minimumDistance>0.008042</minimumDistance>
+        </quality>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>HV</agencyID>
+          <creationTime>2016-01-10T02:52:16.870Z</creationTime>
+          <version>1</version>
+        </creationInfo>
+      </origin>
+      <magnitude catalog:datasource="hv" catalog:dataid="hv61147211" catalog:eventsource="hv" catalog:eventid="61147211" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/hv61147211/hv/1452394336870/product.xml#magnitude">
+        <mag>
+          <value>2.12</value>
+          <uncertainty>0.25</uncertainty>
+        </mag>
+        <type>ml</type>
+        <stationCount>18</stationCount>
+        <originID>quakeml:earthquake.usgs.gov/realtime/product/origin/hv61147211/hv/1452394336870/product.xml</originID>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>HV</agencyID>
+          <creationTime>2016-01-10T02:52:16.870Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/hv61147211/hv/1452394336870/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/hv61147211/hv/1452394336870/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>hv</agencyID>
+        <creationTime>2016-01-10T02:52:16.870Z</creationTime>
+        <version>1</version>
+      </creationInfo>
+    </event>
+    <event catalog:datasource="nn" catalog:eventsource="nn" catalog:eventid="00526100" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00526100.quakeml">
+      <description>
+        <type>earthquake name</type>
+        <text>20km NW of Hawthorne, Nevada</text>
+      </description>
+      <origin catalog:datasource="nn" catalog:dataid="nn00526100" catalog:eventsource="nn" catalog:eventid="00526100" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526100/nn/1452394104538/product.xml">
+        <time>
+          <value>2016-01-10T02:35:25.653Z</value>
+        </time>
+        <longitude>
+          <value>-118.7893</value>
+        </longitude>
+        <latitude>
+          <value>38.6578</value>
+        </latitude>
+        <depth>
+          <value>12000</value>
+          <uncertainty>5100</uncertainty>
+        </depth>
+        <originUncertainty>
+          <horizontalUncertainty>1990</horizontalUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+        </originUncertainty>
+        <quality>
+          <usedPhaseCount>10</usedPhaseCount>
+          <usedStationCount>7</usedStationCount>
+          <standardError>0.0938</standardError>
+          <azimuthalGap>153.42</azimuthalGap>
+          <minimumDistance>0.211</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>NN</agencyID>
+          <creationTime>2016-01-10T02:48:24.538Z</creationTime>
+          <version>526100</version>
+        </creationInfo>
+      </origin>
+      <magnitude catalog:datasource="nn" catalog:dataid="nn00526100" catalog:eventsource="nn" catalog:eventid="00526100" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526100/nn/1452394104538/product.xml#magnitude">
+        <mag>
+          <value>0.7</value>
+          <uncertainty>0.6</uncertainty>
+        </mag>
+        <type>ml</type>
+        <stationCount>2</stationCount>
+        <originID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526100/nn/1452394104538/product.xml</originID>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>NN</agencyID>
+          <creationTime>2016-01-10T02:48:24.538Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526100/nn/1452394104538/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526100/nn/1452394104538/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>nn</agencyID>
+        <creationTime>2016-01-10T02:48:24.538Z</creationTime>
+        <version>526100</version>
+      </creationInfo>
+    </event>
+    <event catalog:datasource="nn" catalog:eventsource="nn" catalog:eventid="00526097" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00526097.quakeml">
+      <description>
+        <type>earthquake name</type>
+        <text>20km NW of Hawthorne, Nevada</text>
+      </description>
+      <origin catalog:datasource="nn" catalog:dataid="nn00526097" catalog:eventsource="nn" catalog:eventid="00526097" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526097/nn/1452393735031/product.xml">
+        <time>
+          <value>2016-01-10T02:33:50.692Z</value>
+        </time>
+        <longitude>
+          <value>-118.7879</value>
+        </longitude>
+        <latitude>
+          <value>38.6566</value>
+        </latitude>
+        <depth>
+          <value>10700</value>
+          <uncertainty>6000</uncertainty>
+        </depth>
+        <originUncertainty>
+          <horizontalUncertainty>2180</horizontalUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+        </originUncertainty>
+        <quality>
+          <usedPhaseCount>13</usedPhaseCount>
+          <usedStationCount>9</usedStationCount>
+          <standardError>0.0833</standardError>
+          <azimuthalGap>139.34</azimuthalGap>
+          <minimumDistance>0.21</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>NN</agencyID>
+          <creationTime>2016-01-10T02:42:15.031Z</creationTime>
+          <version>526097</version>
+        </creationInfo>
+      </origin>
+      <magnitude catalog:datasource="nn" catalog:dataid="nn00526097" catalog:eventsource="nn" catalog:eventid="00526097" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526097/nn/1452393735031/product.xml#magnitude">
+        <mag>
+          <value>0.8</value>
+          <uncertainty>0.73</uncertainty>
+        </mag>
+        <type>ml</type>
+        <stationCount>2</stationCount>
+        <originID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526097/nn/1452393735031/product.xml</originID>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>NN</agencyID>
+          <creationTime>2016-01-10T02:42:15.031Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526097/nn/1452393735031/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/nn00526097/nn/1452393735031/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>nn</agencyID>
+        <creationTime>2016-01-10T02:42:15.031Z</creationTime>
+        <version>526097</version>
+      </creationInfo>
+    </event>
+    <event catalog:datasource="nc" catalog:eventsource="nc" catalog:eventid="72578041" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc72578041.quakeml">
+      <description>
+        <type>earthquake name</type>
+        <text>6km NW of The Geysers, California</text>
+      </description>
+      <origin catalog:datasource="nc" catalog:dataid="nc72578041" catalog:eventsource="nc" catalog:eventid="72578041" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc72578041/nc/1452392194390/product.xml">
+        <time>
+          <value>2016-01-10T02:14:59.730Z</value>
+        </time>
+        <longitude>
+          <value>-122.8141632</value>
+        </longitude>
+        <latitude>
+          <value>38.8149986</value>
+        </latitude>
+        <depth>
+          <value>2220</value>
+          <uncertainty>670</uncertainty>
+        </depth>
+        <originUncertainty>
+          <horizontalUncertainty>580</horizontalUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+        </originUncertainty>
+        <quality>
+          <usedPhaseCount>6</usedPhaseCount>
+          <usedStationCount>6</usedStationCount>
+          <standardError>0.02</standardError>
+          <azimuthalGap>166</azimuthalGap>
+          <minimumDistance>0.008972</minimumDistance>
+        </quality>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2016-01-10T02:16:34.390Z</creationTime>
+          <version>0</version>
+        </creationInfo>
+      </origin>
+      <magnitude catalog:datasource="nc" catalog:dataid="nc72578041" catalog:eventsource="nc" catalog:eventid="72578041" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc72578041/nc/1452392194390/product.xml#magnitude">
+        <mag>
+          <value>0.43</value>
+          <uncertainty>0.13</uncertainty>
+        </mag>
+        <type>md</type>
+        <stationCount>2</stationCount>
+        <originID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc72578041/nc/1452392194390/product.xml</originID>
+        <evaluationMode>automatic</evaluationMode>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2016-01-10T02:16:34.390Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc72578041/nc/1452392194390/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc72578041/nc/1452392194390/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>nc</agencyID>
+        <creationTime>2016-01-10T02:31:04.426Z</creationTime>
+        <version>0</version>
+      </creationInfo>
+    </event>
+    <creationInfo>
+      <creationTime>2016-01-10T03:14:49.000Z</creationTime>
+    </creationInfo>
+  </eventParameters>
+</q:quakeml>
